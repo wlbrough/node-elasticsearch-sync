@@ -1,6 +1,6 @@
 {
-  "name": "node-elasticsearch-sync",
-  "version": "1.0.1",
+  "name": "node-es-sync",
+  "version": "1.1.0",
   "description": "ElasticSearch and MongoDB sync module for node",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/toystars/node-elasticsearch-sync.git"
+    "url": "git+https://github.com/wlbrough/node-elasticsearch-sync.git"
   },
   "keywords": [
     "Elastic",
@@ -19,27 +19,27 @@
     "Mongo",
     "Elastic"
   ],
-  "author": "Mustapha Babatunde <toystars2008@gmail.com> (http://bmustapha.com)",
+  "author": "Bill Broughton <bill@billbroughton.me",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/toystars/node-elasticsearch-sync/issues"
+    "url": "https://github.com/wlbrough/node-elasticsearch-sync/issues"
   },
-  "homepage": "https://github.com/toystars/node-elasticsearch-sync#readme",
+  "homepage": "https://github.com/wlbrough/node-elasticsearch-sync#readme",
   "engines": {
     "node": ">=4.2.4"
   },
   "dependencies": {
-    "debug": "^2.3.2",
-    "dot-object": "^1.4.1",
-    "elasticsearch": "^11.0.1",
-    "mongo-oplog": "^1.0.1",
-    "mongodb": "^2.1.16",
-    "underscore": "^1.8.3"
+    "debug": "^4.0.1",
+    "dot-object": "^1.7.0",
+    "elasticsearch": "^15.1.1",
+    "mongo-oplog": "^2.1.4",
+    "mongodb": "^2.2.36",
+    "underscore": "^1.9.1"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "coveralls": "^2.11.12",
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.2",
     "istanbul": "^0.4.5",
-    "mocha": "^3.0.2"
+    "mocha": "^5.2.0"
   }
 }
